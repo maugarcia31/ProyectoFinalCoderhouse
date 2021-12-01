@@ -1,0 +1,172 @@
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        
+        @media screen and (max-width: 35%) {
+          body {
+            background-color: rgb(238, 207, 207);
+            h1 {
+              color: rgba(88, 24, 64, 1);
+            }
+            h2 {
+              color: rgba(88, 24, 64, 1);
+            }
+            /*NAV*/
+            nav {
+              flex-wrap: wrap;
+              position: sticky;
+              float: right;
+              margin-right: 200px;
+            }
+            .nav__contenedor {
+              float: left;
+              font-size: 20px;
+            }
+            .navegador {
+              color: rgb(255, 255, 255);
+              text-decoration: none;
+              display: inline-block;
+              position: relative;
+              margin: 20px;
+            }
+            .titulo__uno {
+              text-align-last: center;
+              transition: transform 5s;
+            }
+            .titulo1:hover {
+              transform: scale(2, 2);
+            }
+            li {
+              color: blanchedalmond;
+              display: inline-block;
+              margin: 10px;
+            }
+            ul {
+              display: block;
+              margin: 2px;
+              padding: 2px;
+            }
+            li {
+              display: block;
+              margin: 2px;
+              padding: 2px;
+            }
+            .menu {
+              position: absolute;
+              display: none;
+              background-color: rgb(88, 24, 64);
+              color: #EDBEB4;
+              margin: 0px;
+              padding: 0px;
+            }
+            /*PAG PRODUCTOS*/
+            section {
+              div {
+                h2 {
+                  color: black;
+                  font-style: italic;
+                }
+              }
+            }
+            .contenedor__productos {
+              display: grid;
+              margin: 0;
+              grid-template-areas: "uno dos" "tres cuatro" "cinco seis";
+              grid-template-rows: repeat(1, 1fr);
+            }
+            .card1 {
+              grid-area: uno;
+            }
+            .card2 {
+              grid-area: dos;
+            }
+            .card3 {
+              grid-area: tres;
+            }
+            .card4 {
+              grid-area: cuatro;
+            }
+            .card5 {
+              grid-area: cinco;
+            }
+            .card6 {
+              grid-area: seis;
+            }
+            /* CUIDADOS */
+            h1 {
+              color: rgb(209, 122, 122);
+              font-family: fantasy;
+              font-size: 30px;
+              text-align-last: center
+            }
+            .containerCuidados {
+              background-color: blanchedalmond;
+            }
+            .card-text1 {
+              background-color: white;
+              color: rgb(209, 122, 122);
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .articleCuidados {
+              background-color: rgb(238, 207, 207);
+            }
+            /* ESTILO DE LETRA*/
+            .letraCuidados {
+              font-family: 'Gluten', cursive;
+              color: black;
+            }
+            .letrasDescubre {
+              font-family: 'Gluten', cursive;
+              color: black;
+              text-align: center;
+            }
+            .letraDescubre {
+              color: rgb(209, 122, 122);
+              font-family: fantasy;
+              font-size: 90px;
+              text-align: center;
+            }
+            .titulo1 {
+              text-align: center;
+              color: black;
+              font-family: 'Gluten', cursive
+            }
+            .letraComportamientos {
+              font-family: 'Gluten', cursive;
+              color: black;
+            }
+            .navegador:hover .menu {
+              display: block;
+            }
+            /* DESCUBRE  */
+            .sectionDescubre {
+              color: rgb(88, 24, 64);
+              border-radius: 6px;
+              margin: auto;
+              font-size: 20px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+            }
+            .botonDescubre {
+              background-color: rgb(238, 207, 207);
+              color: rgb(209, 122, 122);
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              width: 275px;
+            }
+            .grilla1 {
+              padding-left: 700px;
+            }
+            .contentDescubre {
+              padding-left: 300px;
+            }
+            /* FOOTER  */
+            footer {
+              font-size: 50px;
+              background-color: rgb(88, 24, 64);
+              display: flex;
+              justify-content: center;
+            }
+          }
+        }
