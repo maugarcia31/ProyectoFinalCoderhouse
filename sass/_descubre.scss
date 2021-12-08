@@ -1,0 +1,26 @@
+ /* DESCUBRE  */
+ 
+ .sectionDescubre {
+   color: rgb(88, 24, 64);
+   border-radius: 6px;
+   margin: auto;
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+ }
+ 
+ .botonDescubre {
+   background-color: rgb(238, 207, 207);
+   color: rgb(209, 122, 122);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 275px;
+ }
+ 
+ .grilla1 {
+   padding-left: 700px;
+ }
+ 
+ .contentDescubre {
+   padding-left: 300px;
+ }

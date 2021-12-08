@@ -1,0 +1,41 @@
+ /*PAG PRODUCTOS*/
+ 
+ section {
+   div {
+     h2 {
+       color: black;
+       font-style: italic;
+     }
+   }
+ }
+ 
+ .contenedor__productos {
+   display: grid;
+   margin: 0;
+   grid-template-areas: "uno dos" "tres cuatro" "cinco seis";
+   grid-template-rows: repeat(1, 1fr);
+ }
+ 
+ .card1 {
+   grid-area: uno;
+ }
+ 
+ .card2 {
+   grid-area: dos;
+ }
+ 
+ .card3 {
+   grid-area: tres;
+ }
+ 
+ .card4 {
+   grid-area: cuatro;
+ }
+ 
+ .card5 {
+   grid-area: cinco;
+ }
+ 
+ .card6 {
+   grid-area: seis;
+ }
