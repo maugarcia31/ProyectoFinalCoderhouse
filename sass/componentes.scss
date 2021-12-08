@@ -16,26 +16,6 @@ body {
 
 /*footer*/
 
-#navegadorContenedor {
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  display: flex;
-}
-
-.navegador {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
-  font-size: 100%;
-}
-
-li {
-  color: blanchedalmond;
-  display: inline-block;
-  margin: 10px;
-}
-
 footer {
   font-size: 50px;
   background-color: #101114;
@@ -44,4 +24,16 @@ footer {
   height: 100%;
   width: 100%;
   text-decoration: none;
+  .navegador {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 100%;
+  }
+  li {
+    color: blanchedalmond;
+    display: inline-block;
+    margin: 10px;
+  }
 }
